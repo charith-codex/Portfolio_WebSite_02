@@ -86,3 +86,36 @@ img {
     padding-left: var(--sidbar-width);
   }
 }
+/* BTN */
+.btn{
+  padding: 12px 28px;
+  font-weight: 700;
+}
+.btn-brand{
+  background-color: var(--color-brand);
+  border-color: var(--color-brand);
+  color: var(--color-base);
+}
+.btn-brand:hover,
+.btn-brand:focus{
+  background-color: var(--color-brand2);
+  color: var(--color-base);
+  border-color: var(--color-brand2);
+}
+.link-custom{
+  font-weight: 700;
+  position: relative;
+}
+.link-custom::after{
+  content: "";
+  width: 0;
+  height: 2px;
+  background-color: var(--color-brand);
+  position: absolute;
+  left: 0;
+  top: 110%;
+  transition: all 0.4s;
+}
+.link-custom:hover::after{
+  width: 100%;
+}
