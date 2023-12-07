@@ -10,13 +10,19 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
 
-  <body>
+  <body data-bs-spy="scroll" data-bs-target=".navbar">
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
       <div class="container flex-lg-column">
         <a class="navbar-brand mx-lg-auto mb-lg-4" href="#">
-          <span class="h3 fw-bold d-block  d-lg-none">Charith Wickramasinghe</span>
-          <img src="./assets/images/person.jpg" class="d-none d-lg-block rounded-circle" alt="">
+          <span class="h3 fw-bold d-block d-lg-none"
+            >Charith Wickramasinghe</span
+          >
+          <img
+            src="./assets/images/person.jpg"
+            class="d-none d-lg-block rounded-circle"
+            alt=""
+          />
         </a>
         <button
           class="navbar-toggler"
@@ -57,7 +63,7 @@
       </div>
     </nav>
     <!-- //NAVBAR -->
-      
+
     <!-- CONTENT WRAPPER -->
     <div id="content-wrapper">
       <!-- HOME -->
@@ -65,10 +71,18 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-8">
-              <h1 class="display-4 fw-bold">I'M A <span class="text-brand">WEB DEVELOPER</span> FROM SRI LANKA</h1>
-              <p class="lead mt-2 mb-4">I am Charith Wickramasinghe, And I craft high-performing and delightful experiences tailored and conversion-focused</p>
-              <a href="#work" class="btn btn-brand me-3">Explore My Work</a>
-              <a href="#" class="link-custom">Call: (774) 5646 465</a>
+              <h1 class="display-4 fw-bold" data-aos="fade-up">
+                I'M A <span class="text-brand">WEB DEVELOPER</span> FROM SRI
+                LANKA
+              </h1>
+              <p class="lead mt-2 mb-4" data-aos="fade-up" data-aos-delay="200">
+                I am Charith Wickramasinghe, And I craft high-performing and
+                delightful experiences tailored and conversion-focused
+              </p>
+              <div data-aos="fade-up" data-aos-delay="250">
+                <a href="#work" class="btn btn-brand me-3">Explore My Work</a>
+                <a href="#" class="link-custom">Call: (774) 5646 465</a>
+              </div>
             </div>
           </div>
         </div>
@@ -77,21 +91,51 @@
       <!-- SERVICES -->
       <section id="services" class="full-height px-lg-5">
         <div class="container">
-
-          <div class="row pb-4">
+          <div class="row pb-4" data-aos="fade-up">
             <div class="col-lg-8">
               <h6 class="text-brand">SERVICES</h6>
               <h1>Services that I Provide</h1>
             </div>
           </div>
           <div class="row">
-            <div class="col-md-4">
-              <div class="service">
-                <div class="iconbox">
+            <div class="col-md-4" data-aos="fade-up">
+              <div class="service p-4 bg-base rounded-4 shadow-effect">
+                <div class="iconbox rounded-4">
                   <i class="las la-feather"></i>
                 </div>
-                <h4>Branding</h4>
-                <p>I craft high-performing and delightful experiences tailored and conversion-focused</p>
+                <h5 class="mt-4 mb-2">Web App</h5>
+                <p>
+                  I craft high-performing and delightful experiences tailored
+                  and conversion-focused
+                </p>
+                <a href="#" class="link-custom">Read more</a>
+              </div>
+            </div>
+
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+              <div class="service p-4 bg-base rounded-4 shadow-effect">
+                <div class="iconbox rounded-4">
+                  <i class="las la-pencil-ruler"></i>
+                </div>
+                <h5 class="mt-4 mb-2">Branding</h5>
+                <p>
+                  I craft high-performing and delightful experiences tailored
+                  and conversion-focused
+                </p>
+                <a href="#" class="link-custom">Read more</a>
+              </div>
+            </div>
+
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="600">
+              <div class="service p-4 bg-base rounded-4 shadow-effect">
+                <div class="iconbox rounded-4">
+                  <i class="las la-laptop-code"></i>
+                </div>
+                <h5 class="mt-4 mb-2">Web Design</h5>
+                <p>
+                  I craft high-performing and delightful experiences tailored
+                  and conversion-focused
+                </p>
                 <a href="#" class="link-custom">Read more</a>
               </div>
             </div>
@@ -99,6 +143,9 @@
         </div>
       </section>
       <!-- //SERVICES -->
+      <!-- WORK -->
+        
+      <!-- //WORK -->
     </div>
     <!-- //CONTENT WRAPPER -->
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
