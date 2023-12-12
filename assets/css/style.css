@@ -152,3 +152,20 @@ img {
 .card-custom:hover .card-custom-image img{
   transform: scale(1.1);
 }
+
+/*  CONTACT */
+#contact .form-control{
+  background-color: var(--color-base);
+  border-color: var(--color-base);
+  color: var(--color-body);
+}
+#contact .form-control:focus{
+  border-color: var(--color-brand);
+  box-shadow: none;
+}
+#contact .form-control::placeholder{
+  color: var(--color-body);
+}
+#contact input.form-control{
+  height: 44px;
+}
