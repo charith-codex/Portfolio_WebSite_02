@@ -169,3 +169,18 @@ img {
 #contact input.form-control{
   height: 44px;
 }
+
+/* SOCIAL ICONS */
+.social-icons{
+
+}
+.social-icons a{
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-base);
+  border-radius: 100px;
+  font-size: 24px;
+}
